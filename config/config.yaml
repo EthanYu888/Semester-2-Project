@@ -1,0 +1,65 @@
+# Configuration file for WSB Sentiment Analysis Project
+
+# Stock Universe
+stocks:
+  - GME
+  - AMC
+  - TSLA
+  - NVDA
+  - SPY
+
+# Reddit API Settings
+reddit:
+  subreddit: "wallstreetbets"
+  post_limit: 100  # Posts to fetch per request
+  comment_limit: 50  # Top comments per post
+  lookback_days: 7  # Historical data to collect
+
+# Sentiment Analysis
+sentiment:
+  methods:
+    - "vader"
+    - "finbert"
+    - "custom_lexicon"
+  
+  # Aggregation weights
+  weights:
+    vader: 0.3
+    finbert: 0.4
+    custom_lexicon: 0.2
+    engagement: 0.1
+
+# Feature Engineering
+features:
+  engagement_metrics:
+    - "upvote_ratio"
+    - "num_comments"
+    - "num_awards"
+  
+  temporal_features:
+    - "hour_of_day"
+    - "day_of_week"
+    - "is_market_hours"
+  
+  text_features:
+    - "post_length"
+    - "has_position"
+    - "flair_type"
+
+# Model Settings
+model:
+  target: "next_day_direction"  # Binary: 1=up, 0=down
+  test_size: 0.2
+  validation_size: 0.1
+  random_state: 42
+
+# Data Collection
+data:
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+  save_interval: 100  # Save every N posts
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "logs/project.log"
