@@ -1,0 +1,12 @@
+(Analysis using the project is provided in the file below this one, Sentiment Analysis)
+
+The strong GameStop result came from illustrative proxy data, so it shows methodology, not real-world proof.
+My current framing is mostly next-day direction,it is harder and needs intraday timestamps and alignment.
+
+What i can do to improve my project on predicting the stock prices?
+
+- Likely get a weak-to-moderate edge (better than 50/50 in some regimes), especially around high-attention events.
+
+- Probably still will not get stable high accuracy across all market conditions using WSB sentiment alone.
+
+- Best outcome is a hybrid model: WSB sentiment + volume/engagement + market/technical features + regime filters.

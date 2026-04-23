@@ -1,0 +1,28 @@
+This project that I am working on is aiming to create something that would be able to use some wallstreetbets information that it gets from each stocks that it is fed with adn work with that to provide the probablity of the stocks having a up or down day, having the capability to be able to do this would be able to help traders better position within the stock market. 
+
+One important and well-lnow real world example of wallstreetbets having a strong correlation with the stock is called Game Stop, which is a shop that only sold some new and second-hands video games/consoles, and how this stock went up more that 20 more times when it was being short squeezed. 
+
+
+A well-known real-world example of social media influencing stock prices is the 2021 short squeeze of GameStop (GME). During this event, users on WallStreetBets collectively expressed extremely strong positive sentiment toward the stock, encouraging others to buy and hold shares. This resulted in a rapid increase in trading activity, which contributed to a dramatic rise in GameStop’s stock price from around $20 to over $400 within a short period of time.
+
+
+This event demonstrates that under certain market conditions, social media sentiment can have a direct and measurable impact on stock prices. In particular, the combination of high positive sentiment, increased posting activity, and coordinated retail investor behavior created a feedback loop in which rising prices attracted more attention, further increasing demand. As a result, sentiment was not only correlated with price movement but also played a significant role in driving it.
+
+
+However, the GameStop short squeeze represents an extreme and relatively rare scenario. The stock had unusually high short interest, meaning many institutional investors were betting against it, and this created the conditions necessary for a “short squeeze.” Additionally, the stock had relatively lower liquidity compared to large-cap companies, making it more sensitive to sudden increases in buying pressure.
+
+
+In contrast, this project focuses on Tesla (TSLA), a large-cap and highly liquid stock. Unlike GameStop, Tesla is influenced by a wide range of factors, including earnings reports, macroeconomic conditions, and institutional trading activity. Therefore, it is less likely that retail investor sentiment alone can significantly move the stock price in the same dramatic way.
+
+
+The purpose of this project is to investigate whether WallStreetBets sentiment still has any predictive value under normal market conditions, even if the effect is much smaller. Specifically, this project analyzes whether daily sentiment and posting activity can help predict whether TSLA stock will move up or down the following day.
+
+
+Based on the GameStop example, the hypothesis is that while strong sentiment can influence stock prices in extreme cases, more typical levels of sentiment may still provide a small but measurable predictive signal. This project tests that hypothesis by building a machine learning model and comparing its performance to a baseline of random guessing.
+
+It is important to recognize the limitations of this approach. Social media sentiment is often noisy, emotional, and influenced by memes or sarcasm, which may reduce its reliability as a predictor. Additionally, events such as earnings announcements or major news releases can dominate stock price movements, making sentiment less relevant during those periods.
+
+
+In conclusion, while the GameStop short squeeze demonstrates that WallStreetBets sentiment can have a strong impact on stock prices under specific conditions, this project aims to determine whether similar, though more subtle, effects exist for Tesla in everyday market situations. The results of this analysis will help evaluate whether social media sentiment provides meaningful predictive power or if its influence is limited in more stable and efficient markets.
+
+It also shows that when researching about a company to invest or trade, you can't only look at some public's comments and opinions, because while some would positively benefit you, there are still a significant proibability that it fails and the stock price goes the complete opposite way due to other several consequences. 
